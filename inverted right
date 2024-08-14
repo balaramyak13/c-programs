@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int py, i, j, s;
+    printf("Enter the number of limit: ");
+    scanf("%d", &py);
+
+    for(i = py; i >= 1; i--)
+    {
+        for(s = 0; s < py - i; s++) 
+        {
+            printf(" ");
+        }
+        
+        for(j = 0; j < i; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
