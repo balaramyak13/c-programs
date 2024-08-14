@@ -1,0 +1,17 @@
+int py,i,j,s;
+    printf("enter the no.of limit:");
+    scanf("%d",&py);
+    for(i=1;i<=py;i++)
+    {
+        for(s=0;s<py-i;s++)
+        {
+            printf(" ");
+        }
+        for(j=0;j<i ;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
