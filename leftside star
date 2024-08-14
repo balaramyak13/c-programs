@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int py,i,j;
+    printf("enter the no.of limit:");
+    scanf("%d",&py);
+    for(i=1;i<=py;i++)
+    {
+        for(j=1;j<i ;j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
